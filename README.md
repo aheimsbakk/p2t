@@ -25,7 +25,7 @@ Compatible with Gnu AWK.
 GNU GENERAL PUBLIC LICENSE V3.0
 
 
-[MCMC_SEQ]: https://wiki.rice.edu/confluence/display/PHYLONET/MCMC_SEQ[
+[MCMC_SEQ]: https://wiki.rice.edu/confluence/display/PHYLONET/MCMC_SEQ
 [TreeAnnotator]: http://tree.bio.ed.ac.uk/software/
 [PHYLONET]: https://wiki.rice.edu/confluence/display/PHYLONET/Home
 [BEAST]: http://tree.bio.ed.ac.uk/software/beast/ 
