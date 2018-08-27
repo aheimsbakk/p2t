@@ -7,7 +7,7 @@ Script is created for [Thomas Marcussen][], look up [Thomas on ResearchGate](htt
 
 ## Usage
 
-        awk -f p2t.awk PHYLONET_TREE_FILE > TREEANNOTATOR_FILE
+    awk -f p2t.awk PHYLONET_TREE_FILE > TREEANNOTATOR_FILE
 
 ## Tested 
 
