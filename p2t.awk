@@ -25,7 +25,9 @@ BEGIN {
     }
     if (j%2) {
         gsub(/;/, "")
-        treenum=strtonum($1)
+        newtreenum=strtonum($1)
+        if (newtreenum < treenum) exit(0)
+        treenum=newtreenum
         line="tree STATE_"treenum" [&lnP="$4",posterior="$2"] = [&R]" 
         if (j==1){
             tree1=line
