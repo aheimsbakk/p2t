@@ -18,7 +18,7 @@ BEGIN {
     tree1=""
     j=0
 }
-/[[:digit:]]+;|\[/ {
+/^[[:digit:]]+;|\[/ {
     j++ 
     if (j==3) {
         print tree1
